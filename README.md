@@ -1,14 +1,14 @@
-# User Analytics Application
+# 📊 User Analytics Application
 
 A full-stack analytics application built with the MERN stack that tracks user interactions on web pages and visualizes user behavior through session analytics and heatmaps.
 
-## Overview
+## 📖 Overview
 
 This project captures user interactions such as page views and clicks, stores them in MongoDB, and provides a dashboard to analyze user sessions and click behavior.
 
-## Features
+## ✨ Features
 
-### Event Tracking
+### 📈 Event Tracking
 
 - Track page views
 - Track click events
@@ -17,22 +17,22 @@ This project captures user interactions such as page views and clicks, stores th
 - Capture click coordinates (X, Y)
 - Send events to backend APIs in real-time
 
-### Session Analytics
+### 👥 Session Analytics
 
 - View all user sessions
 - Display total event count per session
 - Explore complete user journeys
 - Sort events chronologically
 
-### Heatmap Visualization
+### 🔥 Heatmap Visualization
 
 - Filter click events by page URL
 - Visualize click positions as heatmap points
 - Analyze user interaction patterns
 
-## Tech Stack
+## 🛠️ Tech Stack
 
-### Frontend
+### 🎨 Frontend
 
 - React.js
 - Vite
@@ -40,18 +40,18 @@ This project captures user interactions such as page views and clicks, stores th
 - Axios
 - CSS
 
-### Backend
+### ⚙️ Backend
 
 - Node.js
 - Express.js
 
-### Database
+### 🗄️ Database
 
 - MongoDB Atlas
 - Mongoose
 
 
-## Project Structure
+## 📂 Project Structure
 
 ```bash
 causal/
@@ -91,9 +91,9 @@ causal/
 └── README.md
 ```
 
-## Installation & Setup
+## 🚀 Installation & Setup
 
-### Backend Setup
+### ⚙️ Backend Setup
 
 ```bash
 cd backend
@@ -117,7 +117,7 @@ Backend will run on:
 
 http://localhost:4000
 
-### Frontend Setup
+### 🎨 Frontend Setup
 
 ```bash
 cd frontend
@@ -129,9 +129,9 @@ Frontend will run on:
 
 http://localhost:5173
 
-## API Endpoints
+## 🔗 API Endpoints
 
-### Store Event
+### 📝 Store Event
 
 ```http
 POST /api/events
@@ -150,7 +150,7 @@ Request Body:
 }
 ```
 
-### Get All Sessions
+### 📋 Get All Sessions
 
 ```http
 GET /api/sessions
@@ -167,7 +167,7 @@ Response:
 ]
 ```
 
-### Get Session Events
+### 🔍 Get Session Events
 
 ```http
 GET /api/sessions/:sessionId
@@ -175,7 +175,7 @@ GET /api/sessions/:sessionId
 
 Returns all events associated with a specific session.
 
-### Get Heatmap Data
+### 🔥 Get Heatmap Data
 
 ```http
 GET /api/heatmap?pageUrl=http://localhost:5173/home
@@ -195,11 +195,11 @@ Response:
 ]
 ```
 
-## Tracking Script
+## 📡 Tracking Script
 
 The project includes a lightweight `tracking.js` script that can be embedded into web pages.
 
-### Tracked Events
+### 🎯 Tracked Events
 
 - `page_view`
 - `click`
@@ -207,16 +207,16 @@ The project includes a lightweight `tracking.js` script that can be embedded int
 
 ## 📸 Screenshots
 
-## Dashboard Page
+## 🖥️ Dashboard Page
 
 <img width="1920" height="961" alt="frontend - Google Chrome 22-06-2026 08_34_17 PM" src="https://github.com/user-attachments/assets/4654607a-1ef8-4ab6-921f-214afa90b09d" />
 
-## Sessions Pages
+## 👥 Sessions Pages
 
 - Session ID
 - Total Event Count
 
-### Session Details Page
+### 📄 Session Details Page
 
 - Event Type
 - Timestamp
@@ -225,28 +225,33 @@ The project includes a lightweight `tracking.js` script that can be embedded int
 
 <img width="1920" height="949" alt="frontend - Google Chrome 22-06-2026 08_34_54 PM" src="https://github.com/user-attachments/assets/fe8a9bcb-7220-4d3a-ae05-152d5f5b92a5" />
 
+---
+
 <img width="1920" height="949" alt="frontend - Google Chrome 22-06-2026 08_35_05 PM" src="https://github.com/user-attachments/assets/f8202e58-f3a8-4b09-bbcf-a98c1bb22dd3" />
 
-## Heatmap Pages
+## 🔥 Heatmap Pages
 
 - Visualizes click positions as points for the selected `pageUrl`
 
 <img width="1902" height="953" alt="frontend - Google Chrome 22-06-2026 09_41_40 PM" src="https://github.com/user-attachments/assets/0ca53ca7-3fac-4ef4-8555-f981a6c909ca" />
 
+---
 
 <img width="1902" height="949" alt="frontend - Google Chrome 22-06-2026 08_35_47 PM" src="https://github.com/user-attachments/assets/6842a8e2-1f0b-4ac2-b471-81580bc51174" />
+
+---
 
 <img width="1902" height="945" alt="frontend - Google Chrome 22-06-2026 08_40_34 PM" src="https://github.com/user-attachments/assets/c8a5fbcf-dc88-4eec-9001-e15efe2217e0" />
 
 
-## Assumptions
+## 📌 Assumptions
 
 - Session IDs are stored in browser localStorage.
 - Click coordinates are stored as raw mouse coordinates.
 - No authentication is required for this assignment.
 - Events are stored individually for easier querying and aggregation.
 
-## Future Enhancements
+## 🚧 Future Enhancements
 
 - Interactive heatmap with intensity visualization
 - Session replay functionality
@@ -255,7 +260,7 @@ The project includes a lightweight `tracking.js` script that can be embedded int
 - User authentication and role management
 - Event batching for improved performance
 
-## Author
+## 👨‍💻 Author
 
 **Omkar Kardel**
 
