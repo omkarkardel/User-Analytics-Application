@@ -231,6 +231,9 @@ The project includes a lightweight `tracking.js` script that can be embedded int
 
 - Visualizes click positions as points for the selected `pageUrl`
 
+<img width="1902" height="953" alt="frontend - Google Chrome 22-06-2026 09_41_40 PM" src="https://github.com/user-attachments/assets/0ca53ca7-3fac-4ef4-8555-f981a6c909ca" />
+
+
 <img width="1902" height="949" alt="frontend - Google Chrome 22-06-2026 08_35_47 PM" src="https://github.com/user-attachments/assets/6842a8e2-1f0b-4ac2-b471-81580bc51174" />
 
 <img width="1902" height="945" alt="frontend - Google Chrome 22-06-2026 08_40_34 PM" src="https://github.com/user-attachments/assets/c8a5fbcf-dc88-4eec-9001-e15efe2217e0" />
@@ -256,7 +259,7 @@ The project includes a lightweight `tracking.js` script that can be embedded int
 
 **Omkar Kardel**
 
-Full Stack Developer | MERN Stack Developer
+Full Stack Developer
 
 GitHub: https://github.com/omkarkardel
 
