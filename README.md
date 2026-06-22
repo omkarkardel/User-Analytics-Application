@@ -204,9 +204,14 @@ The project includes a lightweight `tracking.js` script that can be embedded int
 - `page_view`
 - `click`
 
-## Dashboard Pages
 
-### Sessions Page
+## 📸 Screenshots
+
+## Dashboard Page
+
+<img width="1920" height="961" alt="frontend - Google Chrome 22-06-2026 08_34_17 PM" src="https://github.com/user-attachments/assets/4654607a-1ef8-4ab6-921f-214afa90b09d" />
+
+## Sessions Pages
 
 - Session ID
 - Total Event Count
@@ -218,9 +223,18 @@ The project includes a lightweight `tracking.js` script that can be embedded int
 - Page URL
 - Click Coordinates
 
-### Heatmap Page
+<img width="1920" height="949" alt="frontend - Google Chrome 22-06-2026 08_34_54 PM" src="https://github.com/user-attachments/assets/fe8a9bcb-7220-4d3a-ae05-152d5f5b92a5" />
+
+<img width="1920" height="949" alt="frontend - Google Chrome 22-06-2026 08_35_05 PM" src="https://github.com/user-attachments/assets/f8202e58-f3a8-4b09-bbcf-a98c1bb22dd3" />
+
+## Heatmap Pages
 
 - Visualizes click positions as points for the selected `pageUrl`
+
+<img width="1902" height="949" alt="frontend - Google Chrome 22-06-2026 08_35_47 PM" src="https://github.com/user-attachments/assets/6842a8e2-1f0b-4ac2-b471-81580bc51174" />
+
+<img width="1902" height="945" alt="frontend - Google Chrome 22-06-2026 08_40_34 PM" src="https://github.com/user-attachments/assets/c8a5fbcf-dc88-4eec-9001-e15efe2217e0" />
+
 
 ## Assumptions
 
