@@ -27,6 +27,7 @@ This project captures user interactions such as page views and clicks, stores th
 ### 🔥 Heatmap Visualization
 
 - Filter click events by page URL
+- URLs (http://localhost:5173/home, http://localhost:5173/products, http://localhost:5173/cart)
 - Visualize click positions as heatmap points
 - Analyze user interaction patterns
 
